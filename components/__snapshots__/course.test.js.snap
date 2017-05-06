@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Course item renders the expected UI 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "black",
+        "borderBottomWidth": 1,
+        "borderStyle": "solid",
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://static.platzi.com/media/achievements/programacion-basica2x.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 36,
+          "marginRight": 8,
+          "width": 36,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "fontSize": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    Programación básica
+  </Text>
+</View>
+`;
