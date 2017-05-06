@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Platzi",
+    "description": "Platzi's React Native app",
+    "slug": "platzi",
+    "sdkVersion": "16.0.0",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#98ca3f"
+  }
+}
