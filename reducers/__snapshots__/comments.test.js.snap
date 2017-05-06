@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comments reducer should add a new comment 1`] = `
+Object {
+  "1": Object {
+    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente accusantium",
+    "email": "Eliseo@gardner.biz",
+    "id": 1,
+    "name": "id labore ex et quam laborum",
+    "postId": 1,
+  },
+}
+`;
