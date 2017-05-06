@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchPost saga - failure should return a delay effect 1`] = `undefined`;
+
+exports[`fetchPost saga - failure should return a put effect 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": [Error: test error],
+      "type": "ADD_POST",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`fetchPost saga - failure should return a put effect 2`] = `undefined`;
+
+exports[`fetchPost saga - failure should return an api call effect 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      1,
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
+
+exports[`fetchPost saga - success should return a put effect 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "PUT": Object {
+    "action": Object {
+      "payload": Object {
+        "body": "quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto",
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "userId": 1,
+      },
+      "type": "ADD_POST",
+    },
+    "channel": null,
+  },
+}
+`;
+
+exports[`fetchPost saga - success should return an api call effect 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      1,
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
